@@ -1,0 +1,22 @@
+{
+    "name": "rainbow-drops",
+    "displayName": "Rainbow-Drops Color Theme",
+    "description": "Clone of the Eclipse rainbow drops theme for VS Code",
+    "version": "0.0.1",
+    "publisher": "Liam Wang",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Rainbow-Drops",
+                "uiTheme": "vs-dark",
+                "path": "./themes/rainbow-drops-color-theme.json"
+            }
+        ]
+    }
+}
